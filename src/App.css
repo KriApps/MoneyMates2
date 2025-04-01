@@ -1,0 +1,67 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .dashboard-nav {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .user-profile {
+    margin-bottom: 20px;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .balance-summary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .group-balances {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .group-balances li {
+    padding: 5px 0;
+  }
